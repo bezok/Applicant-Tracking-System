@@ -16,6 +16,7 @@ This ATS allows you to:
 It is built with:
 - **Frontend:** React
 - **Backend:** Flask (Python)
+- **MODEL:** llama 3.1 8B(using ollama)
 - **Database:** Local or cloud database (like SQLite or PostgreSQL)
 - **Version Control:** Git & GitHub
 
