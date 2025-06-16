@@ -1,0 +1,240 @@
+[2025-06-11 12:44:51,840] INFO in _init_: app was started
+[2025-06-11 12:44:52,245] INFO in _init_: app was started
+[2025-06-11 12:45:01,891] INFO in cv_controller: Extracted Text:  
+Alice Johnson  
+Email:  alice.johnson@example.com  
+ Phone:  +1 555 -123-4567  
+ Location:  New York, USA  
+ Portfolio:  https://alicejohnson.dev  
+ 
+Summary  
+Experienced Software Engineer with 5 years of expertise in Python, Machine Learning, 
+and Web Development. Skilled in building scalable applications and data -driven 
+solutions. Passionate about innovative technologies and continuous learning.  
+ 
+Education  
+BSc Computer Sci ence  
+ New York University (NYU)  
+ Graduated 2018  
+ 
+Experience  
+Software Engineer  
+ DataTech Inc., New York, USA  
+ June 2018 – Present  
+ Developed and maintained machine learning models to improve product 
+recommendations, increasing accuracy by 15%.  
+ Built REST APIs using Flask and integrated with frontend applications.  
+ Collaborated with data scientists and product teams to deploy scalable solutions.  
+ Skills  
+ Programming Languages:  Python, SQL  
+ Frameworks:  Flask, Django  
+ Tools:  Git, Docker, AWS  
+ Machine Learning:  scikit-learn, TensorFlow  
+ 
+Portfolio  
+https://alicejohnson.dev  
+ 
+[2025-06-11 12:47:19,669] INFO in db_service: insert values: ('Alice Johnson', 'alice.johnson@example.com', '+1 555 -123-4567', 'New York, USA', 'BSc Computer Science New York University (NYU) Graduated 2018', 'Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow', '5', 'DataTech Inc.', None, None, 'https://alicejohnson.dev')
+[2025-06-11 12:47:19,683] INFO in cv_controller: Processed file: cv1.pdf, Extracted data: {'Name': 'Alice Johnson', 'Email': 'alice.johnson@example.com', 'Phone': '+1 555 -123-4567', 'Location': 'New York, USA', 'Education': 'BSc Computer Science New York University (NYU) Graduated 2018', 'Skills': 'Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow', 'Experience Years': '5', 'Current Company': 'DataTech Inc.', 'Expected Salary': None, 'Notice Period': None, 'Portfolio Link': 'https://alicejohnson.dev'}
+[2025-06-11 13:53:54,579] INFO in _init_: app was started
+[2025-06-11 16:46:05,808] INFO in cv_controller: Extracted Text:  
+Bob Singh  
+Email:  bob.singh@example.in  
+ Phone:  +91 98765 43210  
+ Location:  Bangalore, India  
+ Portfolio:  https://bob -singh.github.io  
+ 
+Summary  
+Senior Software Developer with 7 years of experience specializing in Java, 
+Microservices, and Cloud technologies. Proven track record in designing scalable 
+backend systems and leading agile teams. Strong problem solver and passionate about 
+clean code.  
+ 
+Education  
+MTech Sof tware Engineering  
+ Indian Institute of Science (IISc), Bangalore  
+ Graduated 2016  
+ 
+Experience  
+Senior Software Developer  
+ CloudSolutions Pvt Ltd, Bangalore, India  
+ July 2016 – Present  
+ Designed and developed microservices using Spring Boot and deployed on 
+AWS.  
+ Implemented CI/CD pipelines with Docker and Kubernetes to improve 
+deployment frequency.  
+ Led a team of 5 developers in agile software development and code reviews.   
+Skills  
+ Programming Languages:  Java, Python  
+ Frameworks:  Spring Boot, Hibernate  
+ Tools:  Docker, Kubernetes, AWS, Jenkins  
+ Databases:  MySQL, PostgreSQL  
+ 
+Portfolio  
+https://bob -singh.github.io  
+ 
+[2025-06-11 16:48:29,772] INFO in db_service: insert values: ('Bob Singh', 'bob.singh@example.in', '+91 98765 43210', 'Bangalore, India', 'MTech Sof tware Engineering Indian Institute of Science (IISc), Bangalore Graduated 2016', 'Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL', '7', 'CloudSolutions Pvt Ltd, Bangalore, India', None, None, 'https://bob -singh.github.io')
+[2025-06-11 16:48:29,866] INFO in cv_controller: Extracted Text:  
+Alice Johnson  
+Email:  alice.johnson@example.com  
+ Phone:  +1 555 -123-4567  
+ Location:  New York, USA  
+ Portfolio:  https://alicejohnson.dev  
+ 
+Summary  
+Experienced Software Engineer with 5 years of expertise in Python, Machine Learning, 
+and Web Development. Skilled in building scalable applications and data -driven 
+solutions. Passionate about innovative technologies and continuous learning.  
+ 
+Education  
+BSc Computer Sci ence  
+ New York University (NYU)  
+ Graduated 2018  
+ 
+Experience  
+Software Engineer  
+ DataTech Inc., New York, USA  
+ June 2018 – Present  
+ Developed and maintained machine learning models to improve product 
+recommendations, increasing accuracy by 15%.  
+ Built REST APIs using Flask and integrated with frontend applications.  
+ Collaborated with data scientists and product teams to deploy scalable solutions.  
+ Skills  
+ Programming Languages:  Python, SQL  
+ Frameworks:  Flask, Django  
+ Tools:  Git, Docker, AWS  
+ Machine Learning:  scikit-learn, TensorFlow  
+ 
+Portfolio  
+https://alicejohnson.dev  
+ 
+[2025-06-11 16:49:57,810] INFO in db_service: insert values: ('Alice Johnson', 'alice.johnson@example.com', '+1 555 -123-4567', 'New York, USA', 'BSc Computer Science, New York University (NYU), Graduated 2018', 'Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow', '5', 'DataTech Inc.', None, None, 'https://alicejohnson.dev')
+[2025-06-11 16:52:06,328] INFO in cv_controller: user_query :
+          Find applicants with hard skills: GitHub, AWS, 
+          soft skills: Problem-Solving, 
+          location: Bangalore, 
+          at least 4 years of experience, 
+          score ≥ 50, 
+        
+[2025-06-11 16:52:06,558] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://arjun-nair.dev
+---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: DataTech Inc.
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science New York University (NYU) Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: DataTech Inc.
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Sof tware Engineering Indian Institute of Science (IISc), Bangalore Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://bob -singh.github.io
+---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: DataTech Inc.
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+
+[2025-06-11 16:55:22,052] INFO in cv_controller: Model answer: [
+  {
+    "name": "Bob Singh",
+    "email": "bob.singh@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 92
+  }
+],user given query:
+          Find applicants with hard skills: GitHub, AWS, 
+          soft skills: Problem-Solving, 
+          location: Bangalore, 
+          at least 4 years of experience, 
+          score ≥ 50, 
+        
+[2025-06-11 16:58:13,885] INFO in cv_controller: user_query :give me the applicants with skills in AWS
+[2025-06-11 17:01:57,599] INFO in cv_controller: Model answer: [
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "experience": "5 years",
+    "contact": "+1 555-123-4567",
+    "score": 92
+  },
+  {
+    "name": "Bob Singh",
+    "email": "bob.singh@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 74
+  }
+],user given query:give me the applicants with skills in AWS
+[2025-06-11 17:04:02,828] INFO in cv_controller: user_query :give me the applicants with skills in AWS
+[2025-06-11 17:08:15,335] INFO in _init_: app was started
+[2025-06-11 17:09:50,504] INFO in cv_controller: user_query :give me the applicants with skills in AWS
+[2025-06-11 21:42:18,454] INFO in _init_: app was started
+[2025-06-11 21:42:32,370] INFO in cv_controller: user_query :give me the applicants with skills in AWS

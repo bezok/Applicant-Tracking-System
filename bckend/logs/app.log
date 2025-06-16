@@ -1,0 +1,271 @@
+[2025-06-12 10:40:54,395] INFO in _init_: app was started
+[2025-06-12 10:40:54,806] INFO in _init_: app was started
+[2025-06-12 10:40:59,675] INFO in cv_controller: user_query :give me applicants with at least 6 years experience
+[2025-06-12 10:40:59,903] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://arjun-nair.dev
+
+[2025-06-12 10:41:18,301] INFO in cv_controller: Model answer: [
+  {
+    "name": "Bob Singh",
+    "email": "bob.singh@example.in",
+    "experience": "7 years",
+    "contact": "+91-98765-43210",
+    "score": 100
+  }
+],user given query:give me applicants with at least 6 years experience
+[2025-06-12 10:41:34,353] INFO in cv_controller: user_query :give me applicants with 7 years experience
+[2025-06-12 10:41:34,419] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://arjun-nair.dev
+
+[2025-06-12 10:43:39,987] INFO in cv_controller: Model answer: [
+  {
+    "name": "Bob Singh",
+    "email": "",
+    "experience": "7 years",
+    "contact": "+91-98765-43210",
+    "score": 100
+  }
+],user given query:give me applicants with 7 years experience
+[2025-06-12 10:44:18,000] INFO in cv_controller: user_query :give me applicant arjun
+[2025-06-12 10:44:18,096] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Expected Salary: None
+Notice Period: None
+Portfolio Link: https://arjun-nair.dev
+
+[2025-06-12 10:46:28,357] INFO in cv_controller: Model answer: [
+  {
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 100
+  }
+],user given query:give me applicant arjun
+[2025-06-12 10:56:54,573] INFO in _init_: app was started
+[2025-06-12 10:56:57,151] INFO in _init_: app was started
+[2025-06-12 10:57:03,238] INFO in cv_controller: user_query :give me applicant arjun
+[2025-06-12 10:57:03,323] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Portfolio Link: https://arjun-nair.dev
+
+[2025-06-12 10:59:36,312] INFO in cv_controller: Model answer: [
+  {
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 100
+  }
+],user given query:give me applicant arjun
+[2025-06-12 11:11:32,929] INFO in cv_controller: user_query :give me applicant with experience greater than 3
+[2025-06-12 11:11:33,009] INFO in cv_controller: applicants:---
+Name: Alice Johnson
+Email: alice.johnson@example.com
+Phone: +1 555 -123-4567
+Location: New York, USA
+Education: BSc Computer Science, New York University (NYU), Graduated 2018
+Skills: Python, SQL, Flask, Django, Git, Docker, AWS, scikit-learn, TensorFlow
+Experience Years: 5
+Current Company: None
+Portfolio Link: https://alicejohnson.dev
+---
+Name: Bob Singh
+Email: bob.singh@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech Software Engineering, Indian Institute of Science (IISc), Bangalore, Graduated 2016
+Skills: Java, Python, Spring Boot, Hibernate, Docker, Kubernetes, AWS, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore, India
+Portfolio Link: https://bob-singh.github.io
+---
+Name: Arjun Nair
+Email: arjun.nair@example.in
+Phone: +91 98765 43210
+Location: Bangalore, India
+Education: MTech in Software Engineering, Indian Institute of Science (IISc), Bangalore — 2016
+Skills: Java, Python, Spring Boot, Hibernate, AWS, Docker, Kubernetes, Jenkins, MySQL, PostgreSQL
+Experience Years: 7
+Current Company: CloudSolutions Pvt Ltd, Bangalore
+Portfolio Link: https://arjun-nair.dev
+
+[2025-06-12 11:14:35,971] INFO in cv_controller: Model answer: [
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "experience": "5 years",
+    "contact": "+1 555-123-4567",
+    "score": 100
+  },
+  {
+    "name": "Bob Singh",
+    "email": "bob.singh@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 0
+  },
+  {
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 0
+  }
+],user given query:give me applicant with experience greater than 3
+[2025-06-12 11:21:56,114] INFO in _init_: app was started
+[2025-06-12 11:22:00,577] INFO in cv_controller: user_query :give me applicant with experience greater than 3
+[2025-06-12 11:25:07,889] INFO in cv_controller: Model answer: [
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "experience": "5 years",
+    "contact": "+1-555-123-4567",
+    "score": 92
+  },
+  {
+    "name": "Bob Singh",
+    "email": "bob.singh@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 0
+  },
+  {
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.in",
+    "experience": "7 years",
+    "contact": "+91 98765 43210",
+    "score": 0
+  }
+],user given query:give me applicant with experience greater than 3
+[2025-06-12 11:26:01,314] INFO in cv_controller: user_query :give me applicant with experience in AWS
+
+[2025-06-12 11:35:17,450] INFO in _init_: app was started
+[2025-06-12 11:35:21,519] INFO in cv_controller: user_query :give me applicant with experience in AWS
+
